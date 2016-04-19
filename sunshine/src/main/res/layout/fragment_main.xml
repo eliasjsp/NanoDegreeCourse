@@ -1,13 +1,10 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nanodegree.android.sunshine.MainActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.nanodegree.android.sunshine.PlaceHolderFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
-</FrameLayout>
+    android:layout_height="wrap_content"
+    android:text="Today - Sunny -- 88/63"
+    android:id="@+id/list_item_forecast_textview"
+    android:gravity="center_vertical"
+    android:layout_margin="40dp"
+    android:textSize="30dp" />
